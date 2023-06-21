@@ -92,6 +92,9 @@ function pageLoader(data) {
         // console.log(typeof currentMovieData.blood_amount);
         const movieAmount = document.querySelector("#amount");
         movieAmount.textContent = `${currentMovieData.blood_amount}`;
+        
+        bloodInput.reset();
+        
     })
 
 }
